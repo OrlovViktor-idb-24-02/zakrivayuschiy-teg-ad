@@ -5,3 +5,5 @@
 Откройте index.html в браузере.
 
 Репозиторий: https://github.com/OrlovViktor-idb-24-02/zakrivayuschiy-teg-ad
+
+Сайт: https://orlovviktor-idb-24-02.github.io/zakrivayuschiy-teg-ad/
