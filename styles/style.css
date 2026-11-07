@@ -244,3 +244,7 @@
     font-size: clamp(40px, 16.3636vw - 12.3636px, 49px);
   }
 }
+
+.save-dialog__button .button__text {
+  text-transform: uppercase;
+}

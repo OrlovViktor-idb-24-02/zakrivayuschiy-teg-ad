@@ -1,6 +1,13 @@
 const saveButton = document.querySelector(".save-button");
 const saveDialog = document.querySelector(".save-dialog");
-saveButton.addEventListener("click", () => saveDialog.showModal());
-document
-  .querySelector(".save-dialog__button")
-  .addEventListener("click", () => saveDialog.close());
+const closeButton = document.querySelector(".save-dialog__button");
+
+saveButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  if (!saveDialog.open) saveDialog.showModal();
+});
+
+closeButton.addEventListener("click", (event) => {
+  event.preventDefault();
+  saveDialog.close();
+});
